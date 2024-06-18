@@ -65,8 +65,7 @@ body {
 		Helvetica,
 		Arial,
 		sans-serif,
-		'Apple Color Emoji',
-		'Segoe UI Emoji';
+
 }
 
 /*
@@ -994,6 +993,12 @@ video {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+
+.text-7xl {
+  font-size: 5rem;
+  line-height: 1.2;
 }
 
 .font-light {
