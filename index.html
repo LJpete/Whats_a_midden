@@ -35,6 +35,36 @@
 
   /* Adjust other styles as needed */
 }
+/* Default size for small screens */
+.element {
+
+  height: 200px;
+}
+
+/* Medium screens */
+@media (min-width: 600px) {
+  .element {
+
+    height: 250px;
+  }
+}
+
+/* Large screens */
+@media (min-width: 992px) {
+  .element {
+
+    height: 320px;
+  }
+}
+
+/* Extra large screens */
+@media (min-width: 1200px) {
+  .element {
+
+    height: 450px;
+  }
+}
+
 div.gallery:hover {
   border: 1px solid #777;
 }
@@ -90,12 +120,9 @@ div.desc {
 <body style="background-image: url('img/Betterbanner.png'), url('img/background.png'); background-size:  contain, contain; background-repeat: no-repeat, repeat; background-position: top, top;">
   <!-- Intro -->
   <div id="intro">
-    <div class="container mx-auto px-20 ">
-      <br>    <br>    <br>    <br>    <br>    <br>    <br>    <br>    <br>
-
-        <br>    <br>    <br>    <br>    <br>    <br>
-          <br>    <br>    <br>    <br>    <br>    <br>
-      <br>    <br>    <br>    <br>    <br>    <br>
+    <div class="container mx-auto px-20  ">
+      <div class="element">
+</div>
       <div class="text-center">
         <button class="pushable">
           <a href="mailto:annie.kraehe@anu.edu.au" target=_self title="contact me here">
